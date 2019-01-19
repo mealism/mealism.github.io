@@ -2,8 +2,8 @@
 # Site
 
 title: Fur
-url: "https://abhay-agarwal.github.io/mealism-snipcart/"
-baseurl: "https://abhay-agarwal.github.io/mealism-snipcart/"
+url: "https://mealism.github.io"
+baseurl: ""
 google_analytics_key:
 google_maps_javascript_api_key:
 snipcart_key: "YmNhZDE3MzctODIwYi00YTA1LTlmMTctYjYzNmQ0NjdhNzhiNjM2ODMxNzI3NDM2MTUzNjM5"
@@ -59,6 +59,7 @@ jekyll-archives:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile
